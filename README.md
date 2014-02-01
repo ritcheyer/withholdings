@@ -20,10 +20,10 @@ What started out as a bit of a necessity between my wife and I has become a bit 
 * Make available to hourly/wage earners
 * Make available to people living outside California
 
-## Current To Do List
+## To Do List
 - [ ] Compose pseudo-coded formulas
 - [ ] Actually code the formulas
-- [x] Calculate net income by pay period (weekly, monthly, bi-monthly)
+- [ ] Calculate net income by pay period (weekly, monthly, bi-monthly)
 
 ## Last updated
 February 1, 2014
