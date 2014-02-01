@@ -12,9 +12,20 @@ What started out as a bit of a necessity between my wife and I has become a bit 
 * [Social and Medicare](http://www.irs.gov/publications/p15/ar02.html#en_US_2014_publink1000202402)  (Listed in #9)
 * [California tax](http://www.edd.ca.gov/pdf_pub_ctr/14methb.pdf)
 
+### Figures into Calculation
+* Salary
+* Withholding rate
+* Number of Deductions
+
 ## Current Assumptions
 * You live in California.
 * You are a salaried employee (currently doesn't account for hourly or wage earners) and you know your annual gross income.
+* You are married but withhold at higher single rate (options are: single, married, married but higher single rate)
+* You are not filing as head of household (options are: filing as, not filing as)
+* You have 3 deductions (you, your wife, your 1 child)
+* You do not pay for child/dependent care expenses (options: you do, or you don't)
+* You do not qualify for a child tax credit (options: you do, or you don't)
+
 
 ## Improvements
 * Make available to hourly/wage earners
