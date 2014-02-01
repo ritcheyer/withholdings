@@ -21,9 +21,14 @@ What started out as a bit of a necessity between my wife and I has become a bit 
 * Make available to people living outside California
 
 ## To Do List
-- [ ] Compose pseudo-coded formulas
-- [ ] Actually code the formulas
-- [ ] Calculate net income by pay period (weekly, monthly, bi-monthly)
+* [ ] Compose pseudo-coded formulas
+* [ ] Actually code the formulas
+* [ ] Allow for additional pre-tax withholdings
+* [ ] Pre-tax Insurance Expenses (Medical, Dental, Vision, Life, AD&D, Disability)
+* [ ] Pre-tax 401k Contributions
+* [ ] Allow for post-tax withholdings (what are some?)
+* [ ] Figure out if the order of withholdings matter
+* [ ] Calculate net income by pay period (weekly, monthly, bi-monthly)
 
 ## Last updated
 February 1, 2014
