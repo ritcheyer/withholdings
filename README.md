@@ -15,9 +15,9 @@ What started out as a bit of a necessity between my wife and I has become a bit 
 * [California tax](http://www.edd.ca.gov/pdf_pub_ctr/14methb.pdf)
 
 ### Calculations Based on the Following Data
-* Salary
-* Withholding rate
-* Number of Deductions
+* **Salary** -- How much do you make in a year from your job?
+* **Withholding rate** -- How much is withheld from each of your paychecks? Include all types of insurance (medical, dental, vision, life, disability, AD&D). *Do not* include any additional withholdings.
+* **Number of Deductions** -- How many people can you claim as dependents that live in your household?
 
 ## Current Assumptions
 Since this was primarily generated as a tool for my family, I'm starting with what we used on my W4 and building from that. Therefore, there are a few assumptions that need to be understood:
