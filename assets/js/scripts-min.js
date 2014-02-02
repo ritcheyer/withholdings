@@ -1,0 +1,1 @@
+(function(e){var t=new Date(2014,2,1,0,0,0),n=new Date;e('#footer [data-time="last-edited"]').text(t.toDateString());e('#footer [data-time="server"]').text(n.toDateString())})(jQuery);
