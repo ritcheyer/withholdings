@@ -1,0 +1,51 @@
+
+_______________________________________________________________________________
+
+    The humans.txt file explains the team, technology, and graphic assets
+    behind this site.
+
+_______________________________________________________________________________
+
+PEOPLE
+This website was designed and developed by Eric Ritchey.
+
+Eric Ritchey
+http://eric.ritchey.io/
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+Github
+http://github.com/
+
+jQuery
+http://jquery.com/
+
+SASS
+http://www.sass-lang.com/
+
+Compass
+http://compass-style.org/
+
+Github
+https://github.com/
+
+_______________________________________________________________________________
+
+TOOLS
+
+Lovingly created on a Macbook Pro (Retina, baby!)
+http://www.apple.com/macbook-pro/
+
+using Sublime Text 2
+http://sublimetext.com/2
+
+	Github Color Scheme
+	http://devthemez.com/themes/github
+
+	Spacegrey Theme (slightly modified)
+	http://kkga.github.io/spacegray/
+
+Codekit
+http://incident57.com/codekit/

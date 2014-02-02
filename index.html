@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Monthly Payment Calculator</title>
+
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="msapplication-TileImage" content="/assets/img/touch-icon-ipad-144.png">
+
+		<link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+
+<!--		<link rel="shortcut icon" href="/assets/img/favicon.ico">  Standard Favicon -->
+<!--		<link rel="shortcut icon" href="/assets/img/favicon.png"> Standard Favicon -->
+<!--		<link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/assets/img/touch-icon-iphone-114.png">   57x57  (precomposed) for iPhone 3GS, 2011 iPod Touch and older Android devices -->
+<!--		<link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/assets/img/touch-icon-ipad-144.png">     72x72  (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<!--		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/touch-icon-iphone-114.png">  114x114 (precomposed) for iPhone 4, 4S, 5 and 2012 iPod Touch -->
+<!--		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/touch-icon-ipad-144.png">    144x144 (precomposed) for iPad 3rd and 4th generation -->
+
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
+	</head>
+	<body>
+		<section class="main-content">
+			<header id="main-header" class="header">
+				<h1>Monthly Withholdings Calculator</h1>
+			</header>
+			<nav id="main-nav" class="nav"></nav>
+			<div class="content-contain">
+				<section id="primary" class="primary-column">
+					<h1>Provide Your Income</h1>
+					<form action="#" method="get">
+						<ul>
+							<li class="field">
+								<label for="gross-income">Your Gross Income</label>
+								<input type="text" id="gross-income" name="gross-income" placeholder="120000" value="120000">
+								<span class="helper-text">Please no commas, periods, or dollar signs</span>
+							</li>
+							<li class="field">
+								<label for="pay-periods">Pay periods per year</label>
+								<input type="number" id="pay-periods" name="pay-periods" placeholder="12" value="24">
+								<span class="helper-text">12 (monthly), 24 (bi-monthly), 26 (every two weeks)</span>
+							</li>
+							<li class="field">
+								<label for="insurance">Insurance Withholdings</label>
+								<input type="number" id="insurance" name="insurance" placeholder="175.50" value="175.50">
+								<span class="helper-text">How much is deducted from your paycheck each month for insurance expenses?</span>
+							</li>
+						</ul>
+					</form>
+				</section>
+				<aside id="secondary" class="secondary-column"></aside>
+			</div>
+			<footer id="footer" class="footer">
+				<p>
+					<strong>Disclaimer:</strong><br />
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a enim quis mi mattis cursus sed mattis mauris. Donec laoreet pellentesque leo a congue. Quisque scelerisque auctor porttitor. Cras elementum tempus molestie. Morbi volutpat venenatis odio, ac volutpat justo dictum eu. Maecenas nisl eros, auctor vel imperdiet at, ultrices eget erat. Pellentesque commodo metus sem, accumsan congue lacus faucibus id. Aenean turpis nisi, sagittis eu lobortis ac, elementum eu diam. Duis faucibus sed lorem et convallis. Vivamus posuere erat non dolor bibendum fermentum. Mauris bibendum ultricies est, sit amet lobortis sem elementum non.
+				</p>
+				Date last edited: <span data-time="last-edited"></span>.
+				Server Date: <span data-time="server"></span>.
+			</footer>
+		</section>
+
+		<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/assets/js/jquery-2.1.0.min.js"><\/script>')</script>
+
+		<script src="/assets/js/scripts-min.js"></script>
+
+		<script>
+			var _gaq=[['_setAccount','UA-XXXXXXXX'],['_trackPageview']];
+			(function(d,t){
+				var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+				g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+				s.parentNode.insertBefore(g,s)
+			}(document,'script'));
+		</script>
+	</body>
+
+</html>

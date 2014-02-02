@@ -46,5 +46,8 @@ Since this was primarily generated as a tool for my family, I'm starting with wh
 ## Disclaimer
 *I do not by any means claim to be a financial advisor, nor do I make any claims as to the accuracy of the estimate provided. You are using this calculator at your own risk.*
 
+## Tools Currently being used
+See [humans.txt](humans.txt)
+
 ## Last updated
 February 1, 2014
