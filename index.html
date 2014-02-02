@@ -4,54 +4,94 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Monthly Payment Calculator</title>
+		<meta name="description" content="Calculate your paycheck based on what you earn">
 
-		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-title" content="">
-		<meta name="msapplication-TileImage" content="/assets/img/touch-icon-ipad-144.png">
+		<!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+		<!-- <meta name="apple-mobile-web-app-title" content=""> -->
+		<!-- <meta name="msapplication-TileImage" content="/assets/img/touch-icon-ipad-144.png"> -->
 
+		<link rel="author" href="/humans.txt">
 		<link rel="stylesheet" href="/assets/css/base.css" type="text/css">
 
-<!--		<link rel="shortcut icon" href="/assets/img/favicon.ico">  Standard Favicon -->
-<!--		<link rel="shortcut icon" href="/assets/img/favicon.png"> Standard Favicon -->
-<!--		<link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/assets/img/touch-icon-iphone-114.png">   57x57  (precomposed) for iPhone 3GS, 2011 iPod Touch and older Android devices -->
-<!--		<link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/assets/img/touch-icon-ipad-144.png">     72x72  (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<!--		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/touch-icon-iphone-114.png">  114x114 (precomposed) for iPhone 4, 4S, 5 and 2012 iPod Touch -->
-<!--		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/touch-icon-ipad-144.png">    144x144 (precomposed) for iPad 3rd and 4th generation -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
 
+		<!-- <link rel="shortcut icon" href="/assets/img/favicon.ico">  Standard Favicon -->
+		<!-- <link rel="shortcut icon" href="/assets/img/favicon.png"> Standard Favicon -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/assets/img/touch-icon-iphone-114.png">   57x57  (precomposed) for iPhone 3GS, 2011 iPod Touch and older Android devices -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/assets/img/touch-icon-ipad-144.png">     72x72  (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/touch-icon-iphone-114.png">  114x114 (precomposed) for iPhone 4, 4S, 5 and 2012 iPod Touch -->
+		<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/touch-icon-ipad-144.png">    144x144 (precomposed) for iPad 3rd and 4th generation -->
 
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
 	</head>
 	<body>
-		<section class="main-content">
+		<section class="main-content container-fluid">
 			<header id="main-header" class="header">
 				<h1>Monthly Withholdings Calculator</h1>
 			</header>
 			<nav id="main-nav" class="nav"></nav>
 			<div class="content-contain">
 				<section id="primary" class="primary-column">
-					<h1>Provide Your Income</h1>
-					<form action="#" method="get">
-						<ul>
-							<li class="field">
-								<label for="gross-income">Your Gross Income</label>
-								<input type="text" id="gross-income" name="gross-income" placeholder="120000" value="120000">
-								<span class="helper-text">Please no commas, periods, or dollar signs</span>
-							</li>
-							<li class="field">
-								<label for="pay-periods">Pay periods per year</label>
-								<input type="number" id="pay-periods" name="pay-periods" placeholder="12" value="24">
-								<span class="helper-text">12 (monthly), 24 (bi-monthly), 26 (every two weeks)</span>
-							</li>
-							<li class="field">
-								<label for="insurance">Insurance Withholdings</label>
-								<input type="number" id="insurance" name="insurance" placeholder="175.50" value="175.50">
-								<span class="helper-text">How much is deducted from your paycheck each month for insurance expenses?</span>
-							</li>
-						</ul>
+					<form action="#" method="get" class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="gross-income" class="col-sm-2 control-label">Your Gross Income</label>
+							<div class="col-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon">$</span>
+									<input type="number" id="gross-income" name="gross-income" placeholder="120000" value="" class="form-control input-lg">
+									<span class="input-group-addon">.00</span>
+								</div>
+								<span class="help-block">Please no commas, periods, or dollar signs</span>
+							</div>
+						</div>
+ 						<div class="form-group">
+							<label for="pay-periods" class="col-sm-2 control-label">Pay periods per year</label>
+							<div class="col-sm-10">
+								<input type="number" id="pay-periods" name="pay-periods" placeholder="12" value="" class="form-control input-lg">
+								<span class="help-block">12 (monthly), 24 (bi-monthly), 26 (every two weeks)</span>
+							</div>
+						</div>
+ 						<div class="form-group">
+							<label for="insurance" class="col-sm-2 control-label">Insurance Withholdings</label>
+							<div class="col-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon">$</span>
+									<input type="number" id="insurance" name="insurance" placeholder="175.50" value="" class="form-control input-lg" step=".01" min="0">
+								</div>
+								<span class="help-block">How much is deducted from your paycheck each month for insurance expenses?</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="deductions" class="col-sm-2 control-label">Total Number of Deductions</label>
+							<div class="col-sm-10">
+								<input type="number" id="deductions" name="deductions" placeholder="3" value="" class="form-control input-lg">
+								<span class="help-block">How many people can you claim as deductions?</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="extra-withholding" class="col-sm-2 control-label">Extra Withholding Per Paycheck</label>
+							<div class="col-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon">$</span>
+									<input type="number" id="extra-withholding" name="extra-withholding" placeholder="50" value="" step=".01" min="0" class="form-control input-lg">
+								</div>
+								<span class="help-block">How much extra are you withholding from your paycheck?</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+						    	<button type="submit" class="btn btn-primary" data-action="submit-query">Submit</button>
+						    </div>
+						</div>
 					</form>
 				</section>
 				<aside id="secondary" class="secondary-column"></aside>
@@ -69,7 +109,10 @@
 		<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
 		<script>window.jQuery || document.write('<script src="/assets/js/jquery-2.1.0.min.js"><\/script>')</script>
 
-		<script src="/assets/js/scripts-min.js"></script>
+		<script src="/assets/js/scripts.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
 		<script>
 			var _gaq=[['_setAccount','UA-XXXXXXXX'],['_trackPageview']];
