@@ -12,12 +12,13 @@ What started out as a bit of a necessity between my wife and I has become a bit 
 * [Social and Medicare](http://www.irs.gov/publications/p15/ar02.html#en_US_2014_publink1000202402)  (Listed in #9)
 * [California tax](http://www.edd.ca.gov/pdf_pub_ctr/14methb.pdf)
 
-### Figures into Calculation
+### Calculations Based on the Following Data
 * Salary
 * Withholding rate
 * Number of Deductions
 
 ## Current Assumptions
+Since this was primarily generated as a tool for my family, I'm starting with what we used on my W4 and building from that. Therefore, there are a few assumptions that need to be understood:
 * You live in California.
 * You are a salaried employee (currently doesn't account for hourly or wage earners) and you know your annual gross income.
 * You are married but withhold at higher single rate (options are: single, married, married but higher single rate)
